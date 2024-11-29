@@ -5,7 +5,8 @@ body {
 }
 body {
     color: #434455;
-    background-color: #FFFFFF;
+}
+    body {background-color: #FFFFFF;
 }
 a {
     text-decoration: none;
@@ -536,9 +537,10 @@ button {
                 }
         
                  .footer-logo {
+                    font-family: "Raleway", sans-serif;
                     font-weight: 700;
                         font-size: 18px;
-                        line-height: 1.16667;
+                        line-height: 1.17;
                         letter-spacing: 0.03em;
                         text-transform: uppercase;
                         color: #4d5ae5;
