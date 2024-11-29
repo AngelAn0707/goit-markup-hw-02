@@ -3,11 +3,9 @@ body {
 }
 
 }
-background-color {
-    #FFFFFF
-}
-color {
-  #434455
+body {
+    color: #434455;
+    background-color: #FFFFFF;
 }
 a {
     text-decoration: none;
@@ -158,8 +156,8 @@ button {
                 font-size: 16px;
                 line-height: 1.5;
                 letter-spacing: 0.04em;
-                color: #fff;
-                 background-color: ; color: #4d5ae5;
+                color: #ffffff;
+                 background-color: #4d5ae5;
         }
         .hero-button:hover,
         .hero-button:focus{
@@ -256,15 +254,17 @@ button {
            .section-our-team {
             font-weight: 700;
                 font-size: 36px;
-                line-height: 1.11111;
+                line-height: 1.11;
                 letter-spacing: 0.02em;
+                text-align: center;
+                text-transform: capitalize;
                 color: #2e2f42;
            }
     
            .card-list {}
            
     
-           .card1-list-title {
+           .card1-item {
        
                     
            }
@@ -290,7 +290,7 @@ button {
                 color: #434455;
            }
     
-           .card2-list-title { 
+           .card2-item { }
             
               
             .image2 {
@@ -314,7 +314,7 @@ button {
                  color: #434455;
            }
     
-           .card3-list-titie {
+           .card3-item {
             
                
             
@@ -340,7 +340,7 @@ button {
                  color: #434455;
            }
     
-           .card4-list-title {
+           .card4-item {
         
            }
 
@@ -532,15 +532,16 @@ button {
 
           /* footer */
                 .footer {
-        
                     background-color: #2e2f42;
                 }
         
                  .footer-logo {
-                     font-family: Raleway, sans-serif;
-                     font-weight: 700;
+                    font-weight: 700;
                         font-size: 18px;
-                       color: #4d5ae5;
+                        line-height: 1.16667;
+                        letter-spacing: 0.03em;
+                        text-transform: uppercase;
+                        color: #4d5ae5;
                  }
                 
                 .footer-style {
@@ -557,8 +558,9 @@ button {
                 .footer-text {
 
                 font-weight: 400;
-                 font-size: 16px;
+                font-size: 16px;
                 line-height: 1.5;
-                color: #f4f4fd;;
+                letter-spacing: 0.02em;
+                color: #f4f4fd;
              }
                        
