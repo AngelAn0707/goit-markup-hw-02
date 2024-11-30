@@ -6,7 +6,7 @@ body {
 body {
     color: #434455;
 }
-    body {background-color: #FFFFFF;
+body {background-color: #FFFFFF;
 }
 a {
     text-decoration: none;
@@ -124,6 +124,7 @@ button {
 .header-fone-item {}
 
 .header-fone-link {
+    font-style: normal;
      font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -136,8 +137,8 @@ button {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #404bbf;
-}
+        color:   #404bbf;
+
     /* main section hero */
         .hero {
             background-color: #2e2f42;
@@ -175,7 +176,7 @@ button {
     
            .feature1-item {}
     
-           .feature1-link {
+           .feature1-list {
             font-weight: 500;
                 font-size: 20px;
                 line-height: 1.2;
@@ -191,7 +192,7 @@ button {
                 color: #434455;
            }
     
-           .feature2 {}
+           .feature2-item {}
     
            .feature2-link {
             font-weight: 500;
@@ -209,7 +210,7 @@ button {
                 color: #434455;
            }
     
-           .feature3 {}
+           .feature3-item {}
     
            .feature3-link {
             font-weight: 500;
@@ -227,7 +228,7 @@ button {
                 color: #434455;
            }
     
-           .feature4 {}
+           .feature4-item {}
     
            .feature4-link {
             font-weight: 500;
@@ -249,10 +250,10 @@ button {
                  /* main section2*/
 
            .section {
-            background-color: #f4f4fd;
+            background-color: #FFFFFF;
            }
     
-           .section-our-team {
+           .section-item {
             font-weight: 700;
                 font-size: 36px;
                 line-height: 1.11;
@@ -349,7 +350,7 @@ button {
       
             background: url("path_to_image");
          }
-           .card4-link {
+           .card4-item {
             font-weight: 500;
                 font-size: 20px;
                 line-height: 1.2;
@@ -375,6 +376,7 @@ button {
             font-size: 36px;
             line-height: 1.11;
             letter-spacing: 0.02em;
+            text-align: center
             color: #2e2f42;}
     
          .our-portfolio-list {}
@@ -385,6 +387,7 @@ button {
          }
     
          .banking-app-image {
+           
                 background-color: url("path_to_image");
          }
     
@@ -434,7 +437,7 @@ button {
          }
     
          .meditation-app-image {
-              
+           
             background-color: url("path_to_image");
          }
     
@@ -511,6 +514,7 @@ button {
          }
     
          .onliane-courses-image {
+            
              background-color: url("path_to_image");
          }
     
@@ -553,7 +557,7 @@ button {
                         line-height: 1.17;
                         letter-spacing: 0.03em;
                         text-transform: uppercase
-                        color #f4f4fd ;
+                        color:  #f4f4fd;
                 }
                 
                 
